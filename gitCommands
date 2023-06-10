@@ -1,0 +1,17 @@
+##Use the following commands for pushing
+
+git status 
+git add . 
+git commit -m "write a message"
+git push -u origin main
+
+
+##Use the following command for creating new git repository in a directory  the output in local host >>  .git
+git init
+
+
+#Use the following commands for connection between local repo and remote repo and change master to main  and pushed first time needed for new remote repository
+
+git remote add origin https://github.com/ihechikara/git-and-github-tutorial.git
+git branch -M main            
+git push -u origin main
